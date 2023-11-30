@@ -22,7 +22,6 @@ export const App = () => {
   const [total, setTotal] = useState(1);
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [selectedTag, setSelectedTag] = useState(null);
   const [showButton, setShowButton] = useState(false);
 
   const fetchImages = async (query, page) => {
